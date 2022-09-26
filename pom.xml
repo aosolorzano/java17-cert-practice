@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.hiperium</groupId>
+    <artifactId>java17-cert-practice-parent</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>Java 17 Certification Practice Project</name>
+    <description>Test practice for Java 17 Certification Exam</description>
+    <url>https://github.com/aosolorzano/java17-cert-practice</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>17</java.version>
+        <java.showDeprecation>true</java.showDeprecation>
+        <java.showWarnings>true</java.showWarnings>
+        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+    </properties>
+
+    <modules>
+        <module>java11</module>
+        <module>java17</module>
+    </modules>
+</project>
