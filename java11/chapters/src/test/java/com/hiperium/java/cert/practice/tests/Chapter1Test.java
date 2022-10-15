@@ -146,7 +146,7 @@ public class Chapter1Test {
         // double num2 = 2_.718;    COMPILATION ERROR
         // double num2 = 2._718;    COMPILATION ERROR
         double num3 = 2.7_1_8;
-        // double num4 = _2.718;    COMPILATION ERROR
+        // double num4 = _2_BuildingBlocks.718;    COMPILATION ERROR
         // double num4 = 2.718_;    COMPILATION ERROR
         Assert.assertTrue(true);
     }

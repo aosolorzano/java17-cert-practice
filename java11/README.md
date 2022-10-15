@@ -70,16 +70,16 @@ javac -p mods -d chapters/target/classes \
 ```
 We can set the JAR main class when generating the module JAR file. We can do so by providing an "e" argument:
 ```
-jar -cvfe mods/java11-cert-practice-chapters.jar com.hiperium.java.cert.prep.chapter._17.APIModuleClient -C chapters/target/classes .
+jar -cvfe mods/java11-cert-practice-chapters.jar com.hiperium.java.cert.prep.chapter._17_ModularApplications.APIModuleClient -C chapters/target/classes .
 ```
 
 #### Running program modularity
 Now, we can run the test class, using the generated CHAPTERS JAR:
 ```
-java --module-path mods --module com.hiperium.java.cert.prep.chapters/com.hiperium.java.cert.prep.chapter._11.JavaModuleClient
+java --module-path mods --module com.hiperium.java.cert.prep.chapters/com.hiperium.java.cert.prep.chapter._11_Modules.JavaModuleClient
 ```
 ```
-java -p mods -m com.hiperium.java.cert.prep.chapters/com.hiperium.java.cert.prep.chapter._17.APIModuleClient
+java -p mods -m com.hiperium.java.cert.prep.chapters/com.hiperium.java.cert.prep.chapter._17_ModularApplications.APIModuleClient
 ```
 Or simply using the jar directive:
 ```
@@ -116,7 +116,7 @@ We can think of it as a way of debugging modules. It prints out a lot of info wh
 
 ```
 java --show-module-resolution -p mods \
-    -m com.hiperium.java.cert.prep.chapters/com.hiperium.java.cert.prep.chapter._17.APIModuleClient
+    -m com.hiperium.java.cert.prep.chapters/com.hiperium.java.cert.prep.chapter._17_ModularApplications.APIModuleClient
 ```
 
 #### JAR command

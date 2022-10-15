@@ -1,6 +1,6 @@
 package com.hiperium.java.cert.practice.tests;
 
-import com.hiperium.java.cert.prep.chapter._16.AutomaticResourceMgmt;
+import com.hiperium.java.cert.prep.chapter._16_ExceptionsAssertionsLocalization.AutomaticResourceMgmt;
 import org.junit.Assert;
 import org.junit.Test;
 import java.io.Closeable;
